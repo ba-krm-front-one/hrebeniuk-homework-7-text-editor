@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+
+body {
+    background-color: #464f54;
+    font-family: Georgia, serif;
+
+}
+
+.header {
+    margin-left: 324px;
+    position: absolute;
+    top: 47px;
+    right: 0;
+    z-index: 2;
+}
+
+.intup-content{
+    width: 876px;
+    box-shadow: -3px -3px 59px rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+    color: white;
+    padding-left: 64px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+address, .intup-content h4{
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 6px;
+    opacity: 0.1;
+}
+
+.intup-content h1{
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 48px;
+    margin-top: 10px;
+    padding-bottom: 22px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.ba-control-bar {
+    box-shadow: -3px -3px 59px rgba(0, 0, 0, 0.16);
+    background-color: #fbc02d;
+    margin-left: 64px;
+    padding-left: 42px;
+    padding-bottom: 22px;
+    padding-top: 17px;
+}
+
+.ba-control-bar li {
+    display: inline-block;
+    margin-left: 22px;
+    opacity: 0.5;
+}
+
+.ba-control-bar img {
+    width: 38px;
+}
+
+.ba-control-bar li:hover {
+    opacity: 1;
+}
+
+.document-content {
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 149px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+    z-index: 1;
+}
+
+.ba-main-text{
+    border-left: 2px solid #e8eced;
+    padding-top: 163px;
+    padding-left: 60px;
+    margin-left: 67px;
+    margin-right: 108px;
+}
+.ba-main-text address {
+    font-size: 20px;
+    opacity: 0.3;
+    margin-top: 40px;
+}
+
+.ba-main-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 78px;
+    font-weight: 700;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.ba-main-text h3 {
+    color: #8f8f8f;
+    font-size: 30px;
+    margin-top: 22px;
+    margin-bottom: 55px;
+    font-style: italic;
+}
+
+.ba-main-text p {
+    font-size: 27px;
+    padding-bottom: 43px;
+    padding-left: 1px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.ba-main-text p>span {
+    font-style: italic
+}
